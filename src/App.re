@@ -1,8 +1,9 @@
 module App = {
   [@react.component]
-  let make = () => {
+    let make = () => {
     <div>
         <h1>{React.string("Hello world")}</h1>
+        <Button label="Button"></Button>
     </div>;
   };
 };

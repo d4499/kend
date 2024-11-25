@@ -1,7 +1,0 @@
-(library
- (name app)
- (modes melange)
- (libraries components styled-ppx.melange reason-react)
- (preprocess
-  (pps styled-ppx melange.ppx reason-react-ppx)))
-
